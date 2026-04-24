@@ -106,9 +106,14 @@ nav {
 .product_card_info .product_card_title {
     padding-bottom: 8px;
     color: blue;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 27px;
 }
 
-.preoduct_card_price {
+.preoduct_card_price,
+.product_card_category,
+.preoduct_card_stock {
     color: black;
     font-weight: 600;
     font-size: 17px;
@@ -117,4 +122,28 @@ nav {
 
 .preoduct_card_price span {
     color: rgb(48, 170, 24);
+}
+
+.single_product_info {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+    padding: 8px 15px;
+    background-color: #343434;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.addToCard {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+    padding: 8px 15px;
+    background-color: #dd8d15;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
 }
