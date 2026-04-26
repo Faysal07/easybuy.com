@@ -14,6 +14,8 @@ function Home () {
         .catch(error => console.log(error))
     }, []);
 
+    if (!products) return <h2>Loading...</h2>;
+
     return (
         <div>
             <div className="banner_section">

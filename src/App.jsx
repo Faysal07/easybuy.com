@@ -10,6 +10,7 @@ import Auth from './pages/Auth';
 import Checkout from './pages/Checkout';
 import Navbar from "./components/Navbar";
 import SingleProduct from './components/SingleProduct';
+import Signup from './components/Signup'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
         <Route path="/auth" element= { <Auth /> } />
         <Route path="/checkout" element= { <Checkout /> } />
         <Route path="/product/:id" element={<SingleProduct />} />
+        <Route path='*' element={<h1>404 Page not found.</h1>} />
+        <Route path='/signup' element={ <Signup /> } />
       </Routes>
     </>
   )

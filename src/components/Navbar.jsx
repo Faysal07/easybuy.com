@@ -18,7 +18,7 @@ function Navbar () {
                     </div>
                     <div className="nav-auth-links">
                         <Link to="/auth">Log in</Link>
-                        <Link to="/auth">Sign up</Link>
+                        <Link to="/signup">Sign up</Link>
                     </div>
                 </div>
             </nav>
